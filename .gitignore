@@ -1,6 +1,8 @@
 .idea/
 /web/node_modules
 /web/dist
+/service/log/*
+/service/latest_log
 
 .DS_Store
 
