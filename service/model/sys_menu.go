@@ -1,8 +1,9 @@
 package model
 
 import (
-	"ginProject/global"
 	"sort"
+
+	"ginProject/global"
 )
 
 type SysMenu struct {

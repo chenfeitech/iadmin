@@ -4,6 +4,7 @@ import (
 	"ginProject/global"
 	"ginProject/middleware"
 	"ginProject/router"
+
 	"github.com/gin-gonic/gin"
 	swaggerFiles "github.com/swaggo/files"
 	ginSwagger "github.com/swaggo/gin-swagger"

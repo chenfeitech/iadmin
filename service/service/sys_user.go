@@ -2,12 +2,14 @@ package service
 
 import (
 	"errors"
+	"mime/multipart"
+
 	"ginProject/global"
 	"ginProject/model"
 	"ginProject/model/request"
 	"ginProject/utils"
+
 	"gorm.io/gorm"
-	"mime/multipart"
 )
 
 func Login(L *request.Login) (err error, userInter *model.SysUser) {

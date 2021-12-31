@@ -2,12 +2,14 @@ package core
 
 import (
 	"fmt"
-	"ginProject/global"
-	"ginProject/utils"
-	"go.uber.org/zap"
-	"go.uber.org/zap/zapcore"
 	"os"
 	"time"
+
+	"ginProject/global"
+	"ginProject/utils"
+
+	"go.uber.org/zap"
+	"go.uber.org/zap/zapcore"
 )
 
 var level zapcore.Level

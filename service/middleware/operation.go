@@ -2,16 +2,18 @@ package middleware
 
 import (
 	"bytes"
-	"ginProject/global"
-	"ginProject/model"
-	"ginProject/model/request"
-	"ginProject/service"
-	"github.com/gin-gonic/gin"
-	"go.uber.org/zap"
 	"io/ioutil"
 	"net/http"
 	"strconv"
 	"time"
+
+	"ginProject/global"
+	"ginProject/model"
+	"ginProject/model/request"
+	"ginProject/service"
+
+	"github.com/gin-gonic/gin"
+	"go.uber.org/zap"
 )
 
 func OperationRecord() gin.HandlerFunc {

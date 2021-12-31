@@ -3,12 +3,14 @@ package core
 import (
 	"flag"
 	"fmt"
-	"ginProject/global"
-	"ginProject/utils"
-	"github.com/fsnotify/fsnotify"
-	"github.com/spf13/viper"
 	"log"
 	"os"
+
+	"ginProject/global"
+	"ginProject/utils"
+
+	"github.com/fsnotify/fsnotify"
+	"github.com/spf13/viper"
 )
 
 func Viper(path ...string) *viper.Viper {
@@ -23,7 +25,7 @@ func Viper(path ...string) *viper.Viper {
 			} else {
 				config = configEnv
 				log.Printf("您正在使用GVA_CONFIG环境变量,config的路径为%v\n", utils.ConfigFile)
-				}
+			}
 		} else {
 			log.Printf("您正在使用命令行的-c参数传递的值,config的路径为%v\n", utils.ConfigFile)
 		}

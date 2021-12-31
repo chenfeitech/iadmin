@@ -1,8 +1,9 @@
 package model
 
 import (
-	"ginProject/global"
 	"time"
+
+	"ginProject/global"
 )
 
 type SysOperationRecord struct {

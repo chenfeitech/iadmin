@@ -2,13 +2,14 @@ package utils
 
 import (
 	"errors"
-	"ginProject/global"
 	"io"
 	"mime/multipart"
 	"os"
 	"path"
 	"strings"
 	"time"
+
+	"ginProject/global"
 )
 
 // 封装一些文件操作

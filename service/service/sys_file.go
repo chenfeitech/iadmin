@@ -1,13 +1,14 @@
 package service
 
 import (
+	"mime/multipart"
+	"path"
+	"strings"
+
 	"ginProject/global"
 	"ginProject/model"
 	"ginProject/model/request"
 	"ginProject/utils"
-	"mime/multipart"
-	"path"
-	"strings"
 )
 
 // UploadFile 上传文件

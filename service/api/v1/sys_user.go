@@ -1,6 +1,8 @@
 package v1
 
 import (
+	"time"
+
 	"ginProject/global"
 	"ginProject/middleware"
 	"ginProject/model"
@@ -8,11 +10,11 @@ import (
 	"ginProject/model/response"
 	"ginProject/service"
 	"ginProject/utils"
+
 	"github.com/dgrijalva/jwt-go"
 	"github.com/gin-gonic/gin"
 	"github.com/go-redis/redis"
 	"go.uber.org/zap"
-	"time"
 )
 
 // @Tags Base

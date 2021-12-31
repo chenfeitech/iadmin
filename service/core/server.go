@@ -2,10 +2,11 @@ package core
 
 import (
 	"fmt"
-	"ginProject/global"
-	"ginProject/initialize"
 	"log"
 	"time"
+
+	"ginProject/global"
+	"ginProject/initialize"
 )
 
 type server interface {

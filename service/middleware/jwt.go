@@ -2,16 +2,18 @@ package middleware
 
 import (
 	"errors"
+	"log"
+	"strconv"
+	"time"
+
 	"ginProject/global"
 	"ginProject/model"
 	"ginProject/model/request"
 	"ginProject/model/response"
 	"ginProject/service"
+
 	"github.com/dgrijalva/jwt-go"
 	"github.com/gin-gonic/gin"
-	"log"
-	"strconv"
-	"time"
 )
 
 func JWTAuth() gin.HandlerFunc {

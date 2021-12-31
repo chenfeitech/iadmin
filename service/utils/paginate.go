@@ -3,17 +3,19 @@ package utils
 import (
 	"ginProject/model/request"
 	"ginProject/model/response"
+
 	"gorm.io/gorm"
 )
 
-func GetPaginateResponse(query *request.Pagination)(res response.PageResult){
+func GetPaginateResponse(query *request.Pagination) (res response.PageResult) {
 	res.PageSize = query.PageSize
-	res.Current  = query.Current
+	res.Current = query.Current
 	return res
 }
+
 // Paginate 分页封装
-func Paginate(current int,pageSize int) func(db *gorm.DB) *gorm.DB {
-	return func (db *gorm.DB) *gorm.DB {
+func Paginate(current int, pageSize int) func(db *gorm.DB) *gorm.DB {
+	return func(db *gorm.DB) *gorm.DB {
 		if current == 0 {
 			current = 1
 		}

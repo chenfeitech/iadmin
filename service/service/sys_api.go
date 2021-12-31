@@ -2,12 +2,14 @@ package service
 
 import (
 	"errors"
+	"mime/multipart"
+
 	"ginProject/global"
 	"ginProject/model"
 	"ginProject/model/request"
 	"ginProject/utils"
+
 	"gorm.io/gorm"
-	"mime/multipart"
 )
 
 func GetSysApiList(query *request.SysApiListSearch) (err error, total int64, list []model.SysApi) {

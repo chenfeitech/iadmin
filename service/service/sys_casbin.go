@@ -2,15 +2,17 @@ package service
 
 import (
 	"errors"
+	"strings"
+	"sync"
+
 	"ginProject/global"
 	"ginProject/model"
 	"ginProject/model/request"
+
 	"github.com/casbin/casbin/v2"
 	"github.com/casbin/casbin/v2/util"
 	gormadapter "github.com/casbin/gorm-adapter/v3"
 	_ "github.com/go-sql-driver/mysql"
-	"strings"
-	"sync"
 )
 
 //@author: [piexlmax](https://github.com/piexlmax)

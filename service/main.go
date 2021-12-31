@@ -5,6 +5,7 @@ import (
 	_ "ginProject/docs"
 	"ginProject/global"
 	"ginProject/initialize"
+
 	_ "github.com/go-sql-driver/mysql"
 )
 

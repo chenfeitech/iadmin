@@ -1,9 +1,11 @@
 package utils
 
 import (
-	"ginProject/global"
-	"go.uber.org/zap"
 	"os"
+
+	"ginProject/global"
+
+	"go.uber.org/zap"
 )
 
 //@author: [piexlmax](https://github.com/piexlmax)

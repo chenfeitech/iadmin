@@ -1,8 +1,9 @@
 package model
 
 import (
-	"ginProject/global"
 	"strconv"
+
+	"ginProject/global"
 )
 
 type SysUser struct {
