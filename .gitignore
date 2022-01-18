@@ -1,6 +1,6 @@
 .idea/
-/web/node_modules
-/web/dist
+/aweb/node_modules
+/aweb/dist
 /service/log/*
 /service/latest_log
 
