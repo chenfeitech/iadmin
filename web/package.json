@@ -19,7 +19,7 @@
     "moment": "^2.29.1",
     "nprogress": "^0.2.0",
     "tinymce": "^5.10.2",
-    "vue": "^3.0.0",
+    "vue": "^3.2.25",
     "vue-router": "^4.0.0-0",
     "vuex": "^4.0.0-0",
     "vuex-persist": "^3.1.3"
